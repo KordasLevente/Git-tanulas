@@ -20,27 +20,30 @@
                 <thead>
                     <th>Parancs</th>
                     <th>Mit csinál</th>
+                    <th>Megjegyzés</th>
                 </thead>
                 <tbody>
                     <tr>
                         <td>git init</td>
-                        <td>új helyi repository létrehozása</td>
+                        <td>üres helyi repository létrehozása</td>
+                    </tr>
+                    <tr>
+                        <td>git clone <i>link</i></td>
+                        <td>remote repository lekérése</td>
                     </tr>
                     <tr>
                         <td>git add <i>fájlnév</i></td>
                         <td>fájl hozzáadása a stagehez</td>
-                    </tr>
-                    <tr>
-                        <td>git add . </td>
-                        <td>a mappában található fájlok hozzáadása a stagehez</td>
+                        <td>Ha a fájlnév helyett . van akkor a repoban lévő összes fájlt hozzáadja a stagehez</td>
                     </tr>
                     <tr>
                         <td>git commit -m "<i>Üzenet</i>"</td>
                         <td>stage feltöltése az aktuális branchbe</td>
                     </tr>
                     <tr>
-                        <td>git push -u origin <i>branch név</i></td>
+                        <td>git push origin <i>branch név</i></td>
                         <td>a változások feltöltése a remote repositoryba</td>
+                        <td>-u-val alapértelmezetté tehetünk egy repot és akkor nem kell beírni az elérést</td>
                     </tr>
                     <tr>
                         <td>git branch</td>
@@ -51,8 +54,9 @@
                         <td>branch váltás</td>
                     </tr>
                     <tr>
-                        <td>git branch <i>branchnév</i><br>git checkout -b <i>branchnév</i></td>
+                        <td>git branch <i>branchnév</i></td>
                         <td>új branch létrehozása</td>
+                        <td>Alternatíva: <br>git checkout -b <i>branchnév</i></td>
                     </tr>
                 </tbody>
             </table>
