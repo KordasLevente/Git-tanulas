@@ -3,26 +3,59 @@
     <head>
     <meta charset="utf-8">
     <title>Git teszt</title>
+    <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <h1>Git parancsok</h1>
-        <div>
+        <div class="container">
             <h2>Csatlakozás a githubhoz</h2>
-            git config --global user.email "<i>>email ide</i>"
-            git config --global user.name "<i>felhasználónév ide</i>"
-            git remote add origin <i>repository link</i>
-            <br>
+            <ul>
+            <li>git config --global user.email "<i>email ide</i>"</li>
+            <li>git config --global user.name "<i>felhasználónév ide</i>"</li>
+            <li>git remote add origin <i>repository link</i></li>
+            </ul>
+            
             <h2>Git bash használata</h2>
-            git init - új repository létrehozása
-            git add <i>fájlnév</i> - fájl hozzáadása a repositoryhoz
-            git add . - a mappában található fájlok hozzáadása a repositoryhoz
-            git commit -m "<i>Üzenet</i>" - változások betöltése az aktuális branchbe
-            git push -u origin <i>branch név</i> - a változások feltöltése a github repositoryba
-
-            git branch - branchek kilistázása
-            git checkout <i>branchnév</i> - branch váltás
-            git checkout -b <i>branchnév</i> - új branch létrehozása
-
+            <table>
+                <thead>
+                    <th>Parancs</th>
+                    <th>Mit csinál</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>git init</td>
+                        <td>új repository létrehozása</td>
+                    </tr>
+                    <tr>
+                        <td>git add <i>fájlnév</i></td>
+                        <td>fájl hozzáadása a repositoryhoz</td>
+                    </tr>
+                    <tr>
+                        <td>git add . </td>
+                        <td>a mappában található fájlok hozzáadása a repositoryhoz</td>
+                    </tr>
+                    <tr>
+                        <td>git commit -m "<i>Üzenet</i>"</td>
+                        <td>változások betöltése az aktuális branchbe</td>
+                    </tr>
+                    <tr>
+                        <td>git push -u origin <i>branch név</i></td>
+                        <td>a változások feltöltése a github repositoryba</td>
+                    </tr>
+                    <tr>
+                        <td>git branch</td>
+                        <td>branchek kilistázása</td>
+                    </tr>
+                    <tr>
+                        <td>git checkout <i>branchnév</i></td>
+                        <td>branch váltás</td>
+                    </tr>
+                    <tr>
+                        <td>git checkout -b <i>branchnév</i></td>
+                        <td>új branch létrehozása</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </body>
 </html>

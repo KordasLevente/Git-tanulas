@@ -1,3 +1,40 @@
+body{
+    background-color: #393e46;
+    color: #eeeeee;
+    margin: 0px;
+    padding:0px;
+}
+
 h1 {
-    text-align: :center;
+    text-align: center;
+    font-size: 50pt;
+    background-color:#222831;
+    margin: 0px;
+    padding:0px;
+}
+
+h1,h2{
+    color: #b55400;
+}
+
+.container{
+    margin-left: 50px;
+    font-size: 20pt;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin-bottom: 10px;
+}
+table{
+    border-color: #eeeeee;
+    border-style: solid;
+    border-width: 5px;
+}
+
+td{
+    padding-right: 30px;
 }
