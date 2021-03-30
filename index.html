@@ -5,8 +5,24 @@
     <title>Git teszt</title>
     </head>
     <body>
-        <div>a</div>
-        <div>aaaa</div>
-        <div>aaaaaaaaaaaaaaa</div>
+        <h1>Git parancsok</h1>
+        <div>
+            <h2>Csatlakozás a githubhoz</h2>
+            git config --global user.email "<i>>email ide</i>"
+            git config --global user.name "<i>felhasználónév ide</i>"
+            git remote add origin <i>repository link</i>
+            <br>
+            <h2>Git bash használata</h2>
+            git init - új repository létrehozása
+            git add <i>fájlnév</i> - fájl hozzáadása a repositoryhoz
+            git add . - a mappában található fájlok hozzáadása a repositoryhoz
+            git commit -m "<i>Üzenet</i>" - változások betöltése az aktuális branchbe
+            git push -u origin <i>branch név</i> - a változások feltöltése a github repositoryba
+
+            git branch - branchek kilistázása
+            git checkout <i>branchnév</i> - branch váltás
+            git checkout -b <i>branchnév</i> - új branch létrehozása
+
+        </div>
     </body>
 </html>
