@@ -24,23 +24,23 @@
                 <tbody>
                     <tr>
                         <td>git init</td>
-                        <td>új repository létrehozása</td>
+                        <td>új helyi repository létrehozása</td>
                     </tr>
                     <tr>
                         <td>git add <i>fájlnév</i></td>
-                        <td>fájl hozzáadása a repositoryhoz</td>
+                        <td>fájl hozzáadása a stagehez</td>
                     </tr>
                     <tr>
                         <td>git add . </td>
-                        <td>a mappában található fájlok hozzáadása a repositoryhoz</td>
+                        <td>a mappában található fájlok hozzáadása a stagehez</td>
                     </tr>
                     <tr>
                         <td>git commit -m "<i>Üzenet</i>"</td>
-                        <td>változások betöltése az aktuális branchbe</td>
+                        <td>stage feltöltése az aktuális branchbe</td>
                     </tr>
                     <tr>
                         <td>git push -u origin <i>branch név</i></td>
-                        <td>a változások feltöltése a github repositoryba</td>
+                        <td>a változások feltöltése a remote repositoryba</td>
                     </tr>
                     <tr>
                         <td>git branch</td>
@@ -51,13 +51,22 @@
                         <td>branch váltás</td>
                     </tr>
                     <tr>
-                        <td>git checkout -b <i>branchnév</i></td>
+                        <td>git branch <i>branchnév</i><br>git checkout -b <i>branchnév</i></td>
                         <td>új branch létrehozása</td>
                     </tr>
                 </tbody>
             </table>
 
-            <!-- git stash, -->
+            <!-- git stash
+                git status
+                git pull --allow-unrelated-histories
+                git clone repo link
+                git difff HEAD
+                git reset
+                git checkout -- fájl
+                git rm
+                git merge
+             -->
         </div>
     </body>
 </html>
